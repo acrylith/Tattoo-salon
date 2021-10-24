@@ -1,0 +1,144 @@
+@media screen and (min-width:1400px) {
+    .container {
+        max-width: 1240px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .header {
+        &__list {
+            gap: 40px;
+        }
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .services {
+        &__item {
+            width: 100%;
+        }
+
+        &__title {
+            margin-top: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 1399px) {
+    .main {
+        background-image: url('../img/main-background-xl.jpg');
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .header {
+        &__list {
+            display: none;
+        }
+    }
+
+    .menu-wrapper {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .main {
+        &__wrapper {
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+
+        .red {
+            font-size: 120px;
+        }
+
+        .white {
+            font-size: 100px;
+        }
+    }
+
+    .services {
+        &__list {
+            margin-bottom: 30px;
+        }
+
+        &__image {
+            width: 60%;
+            margin: 30px auto;
+        }
+    }
+
+    .feedback {
+        &__item {
+            margin-bottom: 40px;
+        }
+    }
+
+    .post {
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .main {
+        &__headtext {
+            margin-top: 120px;
+            margin-bottom: 60px;
+        }
+
+        &__subtext {
+            margin-bottom: 60px;
+        }
+
+        &__info {
+            flex-direction: column;
+            margin-bottom: 60px;
+        }
+    }
+
+    .gallery {
+        &__button {
+            display: none;
+        }
+
+        &__button_mobile {
+            display: block;
+        }
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .main {
+        background-image: url('../img/main-background-xs.jpg');
+        &__headtext {
+            margin-bottom: 20px;
+        }
+        
+        .red {
+            font-size: 68px;
+        }
+
+        .white {
+            font-size: 62px;
+        }
+
+        &__subtext {
+            margin-bottom: 20px;
+        }
+
+        &__info {
+            margin-bottom: 20px;
+        }
+    }
+
+    .services {
+        &__image {
+            width: 100%;
+            margin: 30px auto;
+        }
+    }
+
+    .swiper-button-prev, .swiper-button-next {
+        display: none;
+    }
+}
